@@ -1,0 +1,22 @@
+.gestionar-cuentas-container {
+  position: absolute;
+  top: 0;
+  left: 15vw;
+  width: 85vw;
+  height: 100vh;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.7);
+}
+.botones-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.boton-crearCuenta,
+.boton-gestionarCuenta {
+  font-size: 25px;
+  position: relative;
+  top: 100px;
+  margin: 0px 30px;
+  padding: 5px;
+}

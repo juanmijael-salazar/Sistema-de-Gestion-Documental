@@ -1,0 +1,19 @@
+.cuenta-container {
+  position: absolute;
+  top: 0;
+  left: 15vw;
+  width: 85vw;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.562);
+  /* Estas dos ultimas lineas hacen que el 100% de documentos funcione bien */
+  display: flex;
+  flex-direction: column;
+}
+.cuenta {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.hrv2 {
+  width: 60%;
+}

@@ -1,0 +1,88 @@
+.container-nav {
+  height: 100vh;
+  width: 15vw;
+}
+.nav {
+  width: 15vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #edf3fb;
+  position: relative;
+}
+.nav__seccion {
+  height: max-content;
+  width: inherit;
+  background-color: transparent;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.nav__seccion > button {
+  width: inherit;
+  height: 60px;
+  background-color: inherit;
+  border: none;
+  text-align: left;
+  text-indent: 20px;
+  color: #1956BA;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.nav__seccion__subseccion-button {
+  color: #1956BA;
+  background-color: inherit;
+  border: none;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-indent: 60px;
+  width: inherit;
+  text-align: left;
+  height: 60px;
+  font-weight: normal;
+}
+.nav__seccion > button:hover,
+.nav__seccion__subseccion-button:hover {
+  background-color: #bedaff;
+  cursor: pointer;
+}
+/* .nav__salir {
+    position: absolute;
+    height: 180px;
+    width: inherit;
+    bottom: 0px;
+  } */
+.nav__salir {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin: 50px 50px;
+  font-size: 80px;
+  background-color: inherit;
+  color: #4d5ffd;
+  border: none;
+  bottom: 0px;
+}
+.nav__salir:hover {
+  color: black;
+  cursor: pointer;
+}
+
+
+.crear_carpeta {
+  border: 0px solid #2e518b; /*anchura, estilo y color borde*/
+  padding: 10px; /*espacio alrededor texto*/
+  background-color: #2e518b; /*color botón*/
+  color: #ffffff; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*capitalización texto*/
+  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+  border-radius: 0px; /*bordes redondos*/
+
+}
+
+.crear_carpeta:hover {
+  background-color: #003385; /* Green */
+  color: white;
+
+}

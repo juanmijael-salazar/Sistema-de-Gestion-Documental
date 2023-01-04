@@ -1,0 +1,58 @@
+.notificaciones-container {
+  position: absolute;
+  top: 0;
+  left: 15vw;
+  width: 85vw;
+  height: 100vh;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.7);
+  /* Estas dos ultimas lineas hacen que el 100% de documentos funcione bien */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+textarea {
+  resize: none;
+  background-color: rgb(255, 237, 215);
+  font-size: inherit;
+  padding: 5px;
+  width: inherit;
+}
+.form-enviar-notificacion {
+  position: relative;
+  border: solid rgb(189, 216, 207) 1px;
+  width: 15vw;
+  left: 10%;
+  top: 10%;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boton-container {
+  display: flex;
+  width: inherit;
+}
+.boton-enviar-notificacion {
+  font-size: inherit;
+  width: max-content;
+  padding: 5px 10px;
+  margin: 5px 10px;
+}
+.boton-receptor-notificacion {
+  font-size: inherit;
+  width: max-content;
+  padding: 5px 10px;
+  margin: 5px 10px;
+}
+.notificaciones {
+  position: relative;
+  border: solid rgb(189, 216, 207) 1px;
+  width: max-content;
+  left: 50%;
+  top: 10%;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,41 @@
+.Container-login {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../assets/Login.svg");
+  display: inline-block;
+}
+.Login {
+  width: 480px;
+  height: 600px;
+  margin: 150px auto;
+  border: solid rgba(0, 0, 0, 0.56) 2px;
+  border-radius: 50px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.Login__img {
+  height: 125px;
+  width: 380px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.Login__form input,
+.Login__form button {
+  display: inline-block;
+  height: 80px;
+  width: 350px;
+  font-size: 30px;
+  border-radius: 35px;
+  margin-top: 30px;
+  border: 0px;
+}
+.Login__form input {
+  padding-left: 15px;
+}
+.Login__form button {
+  background-color: #7b79de;
+  color: white;
+}
+.Login__form button:active {
+  background-color: #3e3bcf;
+}

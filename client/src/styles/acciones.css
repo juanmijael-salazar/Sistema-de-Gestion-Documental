@@ -1,0 +1,44 @@
+.acciones-containter {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 85vw;
+  width: 15vw;
+  height: 100vh;
+  color: rgba(0, 0, 0, 0.7);
+  border-left: solid 1px black;
+  padding-top: 8vh;
+}
+.acciones-containter > button {
+  height: 12vh;
+  background-color: inherit;
+  border: none;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.acciones-containter > button:hover {
+  background-color: #bedaff;
+  cursor: pointer;
+}
+.toast-eliminar {
+  background-color: red;
+  color: white;
+  margin-left: 60px;
+  margin-right: 10px;
+}
+.toast-cancelar {
+  background-color: white;
+}
+.toast-eliminar,
+.toast-cancelar {
+  height: 30px;
+  width: 96px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+.toast-eliminar:active,
+.toast-cancelar:active {
+  background-color: darkgrey;
+}

@@ -1,0 +1,71 @@
+.gestion-cuentas-container {
+  position: relative;
+  color: rgba(0, 0, 0, 0.7);
+  /* Estas dos ultimas lineas hacen que el 100% de documentos funcione bien */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+.table {
+  border-collapse: collapse;
+}
+.th {
+  padding: 8px;
+  text-align: left;
+  background-color: rgb(253, 191, 76);
+}
+.tr:nth-of-type(even) {
+  background-color: rgb(235, 235, 235);
+}
+.td {
+  padding: 8px;
+  text-align: left;
+}
+.botones-container {
+  display: flex;
+}
+.boton-edit,
+.boton-eliminar {
+  display: flex;
+  font-size: 25px;
+  padding: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: transparent;
+  border-radius: 8px;
+}
+.boton-edit {
+  background-color: rgb(117, 117, 255);
+  color: rgb(250, 244, 165);
+}
+.boton-eliminar {
+  background-color: rgb(255, 55, 55);
+  color: black;
+}
+.p-edit,
+.p-eliminar {
+  font-size: 16px;
+  color: white;
+  align-self: center;
+}
+.toast-eliminar {
+  background-color: red;
+  color: white;
+  margin-left: 60px;
+  margin-right: 10px;
+}
+.toast-cancelar {
+  background-color: white;
+}
+.toast-eliminar,
+.toast-cancelar {
+  height: 30px;
+  width: 96px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+.toast-eliminar:active,
+.toast-cancelar:active {
+  background-color: darkgrey;
+}

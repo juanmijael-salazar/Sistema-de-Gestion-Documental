@@ -1,0 +1,31 @@
+.usuarios-container {
+  margin-top: 5vh;
+  margin: 20px auto;
+  width: 25vw;
+  height: 35vh;
+  background-color: #edf3fb;
+  color: rgba(0, 0, 0, 0.7);
+  /* Estas dos ultimas lineas hacen que el 100% de documentos funcione bien */
+  display: flex;
+  flex-direction: column;
+  /* box-shadow: 5px 5px 10px; */
+}
+.usuarios-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 10px;
+}
+.usuarios-header_nombre {
+  margin: auto;
+}
+.usuario-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 10px;
+  margin-right: 55px;
+}
+.usuarios-boton {
+  position: relative;
+  left: 7.5vw;
+  margin-left: 30px;
+}

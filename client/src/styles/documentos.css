@@ -1,0 +1,66 @@
+.documentos-container {
+  position: absolute;
+  top: 0;
+  left: 15vw;
+  width: 70vw;
+  height: 100vh;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.7);
+  /* Estas dos ultimas lineas hacen que el 100% de documentos funcione bien */
+  display: flex;
+  flex-direction: column;
+}
+.documentos-ruta {
+  font-size: 2em;
+  margin: 20px;
+  cursor: pointer;
+}
+.documentos-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+  font-size: 1.5em;
+}
+.folders {
+  height: max-content;
+}
+.documentos {
+  overflow: auto;
+  height: 100%;
+}
+.documentos-item,
+.documentos-item-validado,
+.documentos-item-oficial {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
+  font-size: 1.3em;
+}
+.documentos-item-validado {
+  background-color: rgb(229, 250, 196);
+}
+.documentos-item-oficial {
+  background-color: rgb(207, 225, 250);
+}
+.documentos-item:hover,
+.documentos-item-validado:hover,
+.documentos-item-oficial:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.documentos-item:active,
+.documentos-item-validado:active,
+.documentos-item-oficial:active {
+  background-color: rgba(0, 0, 0, 0.377);
+}
+/* Crear carpeta */
+ .form-carpetas-container {
+  margin-bottom: 20px;
+
+  background-color: rgba(255, 255, 255, 0.123);
+} 
+.form-carpetas {
+  height: max-content;
+  width: max-content;
+  /* background-color: rgba(0, 0, 0, 0.205); */
+}
