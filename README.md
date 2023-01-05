@@ -8,13 +8,13 @@
 * git config --global list
 
 # Clonar
-* git clone <url del Repositorio>
+* git clone url del Repositorio
 * git init
 
 # Hacer commit
-* git add <ruta de archivos> o .
+* git add ruta de archivos o .
 * git commit -m "Mensaje"
-* git push <rama> o vacio si es la rama principal
+* git push rama o vacio si es la rama principal
 * git pull //para actualizar
 
 
