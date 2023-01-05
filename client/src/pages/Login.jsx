@@ -15,6 +15,7 @@ function Login() {
           src="/src/assets/logo-horizontal.png"
           alt="Logo"
         />
+        <div className="Login__title"> Ingrese sus Credenciales </div>
         <form className="Login__form">
           <input
             type="text"

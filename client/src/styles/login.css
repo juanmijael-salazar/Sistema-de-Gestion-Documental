@@ -1,8 +1,9 @@
 .Container-login {
   height: 100vh;
   width: 100vw;
-  background-image: url("../assets/Login.svg");
+  background-image: url("https://midomicilio.reniec.gob.pe/e-domicilioc/assets/images/fondo2.jpg");
   display: inline-block;
+  background-size: 100%;
 }
 .Login {
   width: 480px;
@@ -11,10 +12,10 @@
   border: solid rgba(0, 0, 0, 0.56) 2px;
   border-radius: 50px;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.20);
 }
 .Login__img {
-  height: 125px;
+  height: 140px;
   width: 380px;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -22,9 +23,9 @@
 .Login__form input,
 .Login__form button {
   display: inline-block;
-  height: 80px;
+  height: 60px;
   width: 350px;
-  font-size: 30px;
+  font-size: 24px;
   border-radius: 35px;
   margin-top: 30px;
   border: 0px;
@@ -33,9 +34,18 @@
   padding-left: 15px;
 }
 .Login__form button {
-  background-color: #7b79de;
+  background-color: #4287f5;
   color: white;
 }
 .Login__form button:active {
   background-color: #3e3bcf;
+}
+
+.Login__title {
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 35px;
+  margin-top: 30px;
+  border: 0px;
+  color: white;
 }
