@@ -34,5 +34,4 @@ npm install
 * ReactJS
 * NodeJS
 * Toastify
-# Como empezar
 
