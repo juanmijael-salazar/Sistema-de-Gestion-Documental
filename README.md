@@ -8,7 +8,8 @@
 * git config --global list
 
 # Clonar
-* git clone url del Repositorio
+Dirigirse a su carpeta principal donde se creará proyecto (htdocs en xampp)
+* git clone https://github.com/juanmijael-salazar/gestor-documental_1.git
 * git init
 
 # Hacer commit
