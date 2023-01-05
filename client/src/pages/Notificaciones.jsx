@@ -3,8 +3,23 @@ import "../styles/notificaciones.css";
 import { useState, useEffect, useContext } from "react";
 import { usuarioContext } from "../context/usuarioContext";
 import io from "socket.io-client";
+//Toastify
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const socket = io("http://localhost:4000");
+const notify = () => {
+    toast.info('🦄 Esta es una notificación!', {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+    });
+}
 
 function Notificaciones() {
   const { user, users } = useContext(usuarioContext);
@@ -24,6 +39,7 @@ function Notificaciones() {
     <>
       <Nav />
       <div className="notificaciones-container">
+      <h1 className="notificaciones-title" >Notificaciones</h1>
         <form
           id="form-notificacion"
           className="form-enviar-notificacion"
@@ -51,6 +67,7 @@ function Notificaciones() {
             <button
               form="form-notificacion"
               className="boton-enviar-notificacion"
+              onClick={notify}
             >
               Enviar
             </button>
@@ -73,8 +90,19 @@ function Notificaciones() {
             </div>
           )}
         </form>
-        <div className="notificaciones">Notificaciones</div>
       </div>
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="colored"
+      />
     </>
   );
 }
