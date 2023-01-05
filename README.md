@@ -15,7 +15,7 @@
 * git add <ruta de archivos> o .
 * git commit -m "Mensaje"
 * git push <rama> o vacio si es la rama principal
-# git pull //para actualizar
+* git pull //para actualizar
 
 
 # Requisitos
