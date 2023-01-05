@@ -1,4 +1,4 @@
-# gestor-documenental_1
+# gestor-documental_1
 * Gestor de documentos para la reniec con JavaScript
 # Herramientas utilizadas
 * MySQL
