@@ -1,4 +1,4 @@
-# gestor-documenental_1
+# Sistema de Gestión Documental
 * Gestor de documentos para la reniec con JavaScript ReactJS
 
 # Clonar Repositorio
