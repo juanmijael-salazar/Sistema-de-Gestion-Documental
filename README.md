@@ -9,7 +9,7 @@
 
 # Clonar
 Dirigirse a su carpeta principal donde se creará proyecto (htdocs en xampp)
-* git clone https://github.com/juanmijael-salazar/gestor-documental_1.git
+* git clone https://github.com/juanmijael-salazar/Sistema-de-Gestion-Documental.git
 * git init
 
 # Hacer commit
