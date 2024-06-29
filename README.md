@@ -36,3 +36,13 @@ npm install
 * NodeJS
 * Toastify
 
+# Capturas
+![](https://github.com/juanmijael-salazar/gestor-documental_1/blob/main/GD%20images/gestor%20img%202.png)
+![](https://github.com/juanmijael-salazar/gestor-documental_1/blob/main/GD%20images/gestor%20img%203.png)
+![](https://github.com/juanmijael-salazar/gestor-documental_1/blob/main/GD%20images/gestor%20img%204.png)
+![](https://github.com/juanmijael-salazar/gestor-documental_1/blob/main/GD%20images/gestor%20img%205.png)
+
+# DB Modeling
+![](https://github.com/juanmijael-salazar/gestor-documental_1/blob/main/GD%20images/gestor%20img%206.png)
+
+
